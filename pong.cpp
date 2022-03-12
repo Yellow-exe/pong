@@ -6,9 +6,9 @@ bool started = false;
 int main(){
     replay:
     Texture t1,t2,t3;
-    t1.loadFromFile("C:/Users/wolfr/source/codeblock/pong/pongpaddle.png");
-    t2.loadFromFile("C:/Users/wolfr/source/codeblock/pong/pongpaddle.png");
-    t3.loadFromFile("C:/Users/wolfr/source/codeblock/pong/ball.png");
+    t1.loadFromFile("path/path/paddle.png");
+    t2.loadFromFile("path/path/pongpaddle.png");
+    t3.loadFromFile("path/path/pong/ball.png");
     Sprite paddleright(t1),paddleleft(t2),ball(t3);
     sf::RenderWindow window(sf::VideoMode(520, 450), "retardgame");
     paddleright.setPosition(511,226);
